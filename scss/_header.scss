@@ -1,0 +1,37 @@
+header {
+  position: absolute;
+  z-index: 2023;
+  top: 0;
+  width: 100%;
+  padding: 4rem 0;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    .divider {
+      background-color: #90FF74;
+      width: 2px;
+      height: 1.6rem;
+    }
+    span {
+      color: #FFF;
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 110%;
+      letter-spacing: 0.72px;
+      text-transform: uppercase;
+      display: block;
+    }
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+  }
+}
